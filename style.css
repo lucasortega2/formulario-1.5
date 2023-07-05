@@ -1,0 +1,45 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+fieldset {
+height:max-content;
+padding: 20px;
+margin: 20px;
+}
+select {
+    width: 50px;
+}
+.last {
+    display:flex;
+    flex-direction: column;
+}
+.last p {
+    margin: 0;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.last label {
+    margin: 0 0 0 5px;
+}
+.last1 {
+    display: inline-flex;
+    margin: 5px;
+}
+.last2 {
+    display: inline-flex;
+    margin: 5px;
+}
+input {
+    margin-top: 0;
+}
